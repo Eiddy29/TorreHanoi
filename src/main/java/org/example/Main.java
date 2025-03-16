@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class TorreDeHanoi {
 
-    // Método recursivo para resolver la Torre de Hanoi
+    // Método recursivo para resolver la Torre de Hanoi 
     public static void moverATorres(int n, char origen, char auxiliar, char destino) {
         if (n == 1) {
             System.out.println("Mover la ficha 1 de " + origen + " a " + destino);
@@ -23,7 +23,7 @@ public class TorreDeHanoi {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Solicitar al usuario el número de fichas
+        // Pedir al usuario el número de fichas 
         System.out.print("Ingrese el número de fichas: ");
         int numFichas = scanner.nextInt();
 
