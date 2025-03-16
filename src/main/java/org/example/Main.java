@@ -27,7 +27,7 @@ public class TorreDeHanoi {
         System.out.print("Ingrese el número de fichas: ");
         int numFichas = scanner.nextInt();
 
-        System.out.println("Secuencia de movimientos:");
+        System.out.println("Patrones de movimientos:");
         moverTorres(numFichas, 'A', 'B', 'C');
 
         scanner.close();
