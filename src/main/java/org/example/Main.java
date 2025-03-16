@@ -20,3 +20,16 @@ public class TorreDeHanoi {
         // Mover los (n-1) discos desde el auxiliar al destino usando el origen
         moverTorres(n - 1, auxiliar, origen, destino);
     }
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Solicitar al usuario el número de discos
+        System.out.print("Ingrese el número de discos: ");
+        int numDiscos = scanner.nextInt();
+
+        System.out.println("\nSecuencia de movimientos:");
+        moverTorres(numDiscos, 'A', 'B', 'C');
+
+        scanner.close();
+    }
+}
